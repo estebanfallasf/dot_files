@@ -1,0 +1,19 @@
+[user]
+	name = foo
+	email = foobar@gmail.com
+[alias]
+	p = push
+	st = status
+	b = branch
+	co = checkout
+	ll = log --oneline
+	last = log -1 HEAD --stat
+	cm = commit -m
+	rv = remote -v
+	d = diff
+	dv = difftool -t vimdiff -y
+	gl = config --global -l
+	se = !git rev-list --all | xargs git grep -F
+	c = commit
+[pull]
+	ff = only
